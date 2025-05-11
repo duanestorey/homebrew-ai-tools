@@ -41,8 +41,8 @@ jobs:
       # Update the formula with the new version information
       - name: Update formula
         run: |
-          sed -i 's|url ".*"|url "${{ steps.release.outputs.tarball_url }}"|' homebrew-ai-tools/ai-tools.rb
-          sed -i 's|sha256 ".*"|sha256 "${{ steps.sha.outputs.sha256 }}"|' homebrew-ai-tools/ai-tools.rb
+          sed -i 's|url "https://github.com/duanestorey/ai-tools/archive/refs/tags/1.0.5.tar.gz"|' homebrew-ai-tools/ai-tools.rb
+          sed -i 's|sha256 "9dacd91aca044bc160df08e7d5a3adf8588254d5f5491301bfc806988be19600"|' homebrew-ai-tools/ai-tools.rb
           
       # Commit and push the changes to the Homebrew tap repository
       - name: Commit and push changes
