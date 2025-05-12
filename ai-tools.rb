@@ -1,8 +1,8 @@
 class AiTools < Formula
   desc "Generate AI-friendly project overviews"
   homepage "https://github.com/duanestorey/ai-tools"
-  url "https://github.com/duanestorey/ai-tools/archive/refs/tags/1.0.7.tar.gz"
-  sha256 "d9d4dbee93bbd2af4224d831daaa95070fa7fca17f8c19d9ab4e81134e3988e6"
+  url "https://github.com/duanestorey/ai-tools/archive/refs/tags/1.0.8.tar.gz"
+  sha256 "61adaab4470695cb552d05947e1a4259275f7d8d91092c50270991a1cf5c8628"
   license "MIT"
   
   depends_on "php"
